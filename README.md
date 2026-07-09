@@ -1,56 +1,39 @@
 # Pokemon Battle Game
 
-This is a simple text-based Pokemon battle game implemented in Python. The game allows players to choose their Pokemon and engage in battles against enemy Pokemon.
+## Overview
+
+A text-based Pokémon battle game written in **Python**. Choose your Pokémon, face a randomly selected opponent, and fight in a turn-based battle until one side faints.
 
 ## Features
 
-- Choose between Pikachu and Charmander as your Pokemon.
-- Engage in battles against a randomly selected enemy Pokemon.
-- Utilizes basic Pokemon attributes such as HP and level.
-- Implements a turn-based battle system.
-- Displays battle outcomes and declares winners.
+- Choose between Pikachu and Charmander
+- Randomly selected enemy Pokémon
+- Turn-based battle system using HP and level attributes
+- Battle outcome display and winner declaration
 
-## Installation
+## Installation & Play
 
-1. Clone the repository:
-```
-git clone https://github.com/your_username/pokemon-battle-game.git
-```
-
-2. Navigate to the project directory:
- ```
- cd pokemon-battle-game
- ```
-
- 
-3. Run the game:
-```
-python pokemon_game.py 
+```bash
+git clone https://github.com/Abbassimedayoub/pokemon-battle-game.git
+cd pokemon-battle-game
+python3 pokemon_game.py
 ```
 
-## How to Play
+## Requirements
 
-1. Upon starting the game, you will be prompted to choose your Pokemon from Pikachu and Charmander.
-2. After selecting your Pokemon, the game will randomly choose an enemy Pokemon.
-3. Engage in battle by attacking the enemy Pokemon.
-4. Each Pokemon's HP will decrease with each attack until one Pokemon faints.
-5. The game will declare the winner once a Pokemon's HP reaches zero.
+Python 3 (tested with 3.10).
 
-## Dependencies
+## Skills Demonstrated
 
-- Python 3.10.12
-
-## Contributing
-
-Contributions are welcome! If you would like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create your feature branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Submit a pull request.
+Object manipulation and game-loop logic in Python, user input handling, and randomness — in a single self-contained script.
 
 ## Acknowledgements
 
-- This project was inspired by the Pokemon series.
-- Special thanks to Holberton School of Paris for providing resources and guidance.
+Inspired by the Pokémon series. Thanks to Holberton School Paris for resources and guidance.
+
+## Author
+
+**Mohamed Ayoub Abbassi** — Holberton School Paris
+
+- GitHub: [@Abbassimedayoub](https://github.com/Abbassimedayoub)
+- LinkedIn: [mohamed-ayoub-abbassi](https://www.linkedin.com/in/mohamed-ayoub-abbassi)
